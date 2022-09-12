@@ -254,7 +254,7 @@ h2 {
   height: 368px;
   left: calc(50% - 370px/2);
   padding: 0%;
-  
+
 }
 
 /* Title team */
@@ -290,28 +290,35 @@ h2 {
     height: 252px;
     margin:0%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     background-color: var(--color-banner-footer);
 }
 
 .first-block {
-  width: 1200px;
   padding-top: 60px;
   padding-left: 215px;
   background-color: #2F303A;
 }
 
-.networks{
-  float: right;
+.networks h3{
+  color: var(--color-white);
+  align-content: center;
 }
 
+.networks{
+  margin: 42px 0 0 70px;
+}
 
+.social-networks {
+  padding: 0%;
+  list-style: none;
+}
 
+.social{
+  float: left;
+  margin-right: 10px;
+}
 
-
-
-
-/*
 address {
   width: 231px;
   font-family: 'Roboto', sans-serif;
@@ -398,37 +405,41 @@ address {
   background-color: #E5E5E5;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.briefcase{
+#briefcase{
   width: 1200px;
   padding: 0%;
   margin: 0%;
+  padding-bottom: 82px;
 }
 
 
 .list-portfolio {
-  margin-right: 30px;
+  padding: 0%;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   display: flex;
+  flex-flow: row wrap;
 }
 
-.list-portfolio{
-  padding: 0%;
-  display: flex;
+.list-portfolio li {
+  list-style: none;
 }
 
-.box-one{
+
+.box {
+  flex-basis: (100/3);
   width: 370px;
-  justify-content: space-between;
+  justify-content: center;
   padding-top:30px;
-  margin-right:30px;
+  margin: 0%;
   font-style: none;
 }
 
+/*
 .cont {
   display: flex;
 }
@@ -441,22 +452,8 @@ address {
   font-weight: 700;
   font-size: 14px;
   color: var(--color-white);
-}
+}*/
 
-social-networks{
-  float: center;
-  list-style: none;
-}
-
-.social-networks {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
-*/
-.social{
-  float: left;
-}
 
 */
 /* Contenedor 1,2 y 3 de imagenes de portafolio
