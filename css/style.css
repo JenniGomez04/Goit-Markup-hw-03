@@ -415,30 +415,35 @@ address {
   padding-bottom: 82px;
 }
 
-
 .list-portfolio {
   padding: 0%;
   display: flex;
   margin: 0 auto;
   flex-flow: row wrap;
+  row-gap: 30px;
+  justify-content: space-between;
 }
 
 .list-portfolio li {
   list-style: none;
 }
 
-
-.box img {
-  padding-right: 30px;
+.box {
+  background-color: var(--color-white);
+  font-style: none;
+  border-bottom-width: 2px;
+  border-bottom-style: inset;
+  border-bottom-color: #EEEEEE;
+  padding-bottom: 20px;
 }
 
-.box {
-  flex-basis: 33.3333;
-  width: 370px;
-  justify-content: center;
-  padding-top:30px;
-  margin: 0%;
-  font-style: none;
+.box h3{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.box span{
+  margin-left: 24px;
 }
 
 */
