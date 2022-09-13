@@ -402,7 +402,7 @@ address {
 .container-briefcase {
   padding: 0%;
   margin: 0%;
-  background-color: #E5E5E5;
+  background-color: #EEEEEE;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -419,9 +419,7 @@ address {
 .list-portfolio {
   padding: 0%;
   display: flex;
-  justify-content: space-between;
   margin: 0 auto;
-  display: flex;
   flex-flow: row wrap;
 }
 
@@ -430,30 +428,18 @@ address {
 }
 
 
+.box img {
+  padding-right: 30px;
+}
+
 .box {
-  flex-basis: (100/3);
+  flex-basis: 33.3333;
   width: 370px;
   justify-content: center;
   padding-top:30px;
   margin: 0%;
   font-style: none;
 }
-
-/*
-.cont {
-  display: flex;
-}
-
-.cont h3{
-  margin-top: 75px;
-  padding-right:0;
-  width: 135px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  color: var(--color-white);
-}*/
-
 
 */
 /* Contenedor 1,2 y 3 de imagenes de portafolio
