@@ -37,12 +37,13 @@ body {
 .header {
   background-color: var(--color-white);
   width: 100%;
+  height: 98px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-style: solid;
   border-width: 1px;
-  border-color: var(--color-blue);
+  border-color: var(--color-back-gris);
 }
 
 /* container para skills y services*/
@@ -99,6 +100,7 @@ body {
 /* Seccion banner css */
 .banner{
   width: 100%;
+  background-image: url();
   background-color: var(--color-banner-footer);
 }
 
@@ -319,6 +321,7 @@ h2 {
   margin-right: 10px;
 }
 
+
 address {
   width: 231px;
   font-family: 'Roboto', sans-serif;
@@ -350,6 +353,7 @@ address {
   color: var(--color-white);
   background-color: var(--color-blue);
   border-color: var(--color-white);
+  border-radius: 4px;
 }
 
 .btaz:hover,
@@ -358,21 +362,26 @@ address {
   border-color: var(--color-blue);
 }
 
-.btngr {
-  color: var(--color-blue);
+.btgr {
+  color: var(--color-black);
   background-color: var(--color-back-gris);
+  border-color: var(--color-back-gris);
+  border-radius: 4px;
 }
 
-.btngr:hover,
-.btngr:active {
-  color: var(--color-grisc);
+.btgr:hover,
+.btgr:active {
+  color: var(--color-blue);
   border-color:var(--color-blue);
 }
 
+/* Etiquetas link*/
+
 .link:hover,
 .link:active {
-  color: var(--color-black);
+  color: var(--color-blue);
 }
+
 
 /* CONTAINER PORTAFOLIO */
 .list-button{
@@ -426,6 +435,7 @@ address {
 
 .list-portfolio li {
   list-style: none;
+  border: 1px solid #EEE;
 }
 
 .box {
