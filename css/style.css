@@ -100,7 +100,6 @@ body {
 /* Seccion banner css */
 .banner{
   width: 100%;
-  background-image: url();
   background-color: var(--color-banner-footer);
 }
 
